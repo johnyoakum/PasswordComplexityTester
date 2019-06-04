@@ -23,7 +23,8 @@
 ##*=============================================
 ##* FUNCTION DECLARATION
 ##*=============================================
-
+Function Test-Password()
+{
 # Function to create the reusable form for requesting the password.
 Function CreateForm( [string[]]$Title,[string[]]$Text,[bool[]]$Password,[string[]]$base64 ) 
 {
@@ -287,3 +288,4 @@ If ($NoEntry -eq $False) # If there was a password entered, show the successful 
 ##*=============================================
 ##* END SCRIPT BODY
 ##*=============================================
+}
